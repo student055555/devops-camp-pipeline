@@ -50,8 +50,6 @@ pipeline {
             }
             //TODO("Lab 4 - Artifact Management"): clean local docker app image
         }
-        
-        }
         //TODO("Lab 7 - Automated Security Scans"): add a stage
         stage('Deploy') {
             steps {
